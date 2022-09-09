@@ -680,6 +680,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
+  padding-left: 42px;
 }
 .backdrop-textarea {
   width: 448px;
@@ -707,12 +708,6 @@ img {
   margin-top: 11px;
   width: 18px;
   height: 18px;
-}
-.backdrop-container input[type="text"] {
-  padding-left: 42px;
-}
-.backdrop-container input[type="tel"] {
-  padding-left: 42px;
 }
 
 .form-backdrop:hover .backdrop-icon,
