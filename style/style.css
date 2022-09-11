@@ -661,6 +661,7 @@ img {
   pointer-events: none;
 }
 .backdrop-title {
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -669,7 +670,6 @@ img {
   color: var(--link-color);
 }
 .backdrop-container {
-  margin-top: 12px;
   margin-bottom: 20px;
 }
 .backdrop-block {
@@ -690,7 +690,7 @@ img {
   padding: 12px 16px 12px 16px;
   outline: none;
   resize: none;
-  transition: birder-color var(--transition-dur-and-func);
+  transition: border-color var(--transition-dur-and-func);
 }
 
 .backdrop-title-text {
@@ -713,6 +713,8 @@ img {
 }
 .form-backdrop {
   position: relative;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .form-backdrop:hover .backdrop-icon,
@@ -722,7 +724,6 @@ img {
 .backdrop-textarea:hover,
 .backdrop-textarea:focus {
   border-color: var(--text-color);
-  transition: border-color var(--transition-dur-and-func);
 }
 
 .backdrop-block:hover,
